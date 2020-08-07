@@ -45,7 +45,7 @@ watermark/1
 
 POST /api/v1?watermark/1/image/aHR0cDovL3d3dy5wbmdhbGwuY29tL3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE2LzA1L1B5dGhvbi1Mb2dvLUZyZWUtRG93bmxvYWQtUE5HLnBuZw==/dissolve/80/gravity/center/dx/200/dy/100/ws/1/wst/0
 
-![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/wm_001.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/wm_001.jpeg)
 
 ## 文字水印
 

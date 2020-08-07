@@ -68,7 +68,7 @@ imageMogr2/auto-orient
 
 图片处理重心参数表 在图片高级处理现有的功能中只影响其后的裁剪操作参数表，即裁剪操作以 gravity 为原点开始偏移后，进行裁剪操作。
 
-![图片](https://uploader.shimo.im/f/4Dc9J4fdCKM2yJbM.png)**crop 说明**
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/gravity_case.png)**crop 说明**
 
 裁剪操作参数表 (cropsize)
 

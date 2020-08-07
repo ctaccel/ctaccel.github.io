@@ -45,7 +45,7 @@ watermark/1
 
 POST /api/v1?watermark/1/image/aHR0cDovL3d3dy5wbmdhbGwuY29tL3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE2LzA1L1B5dGhvbi1Mb2dvLUZyZWUtRG93bmxvYWQtUE5HLnBuZw==/dissolve/80/gravity/center/dx/200/dy/100/ws/1/wst/0
 
-![图片](https://uploader.shimo.im/f/x2JEDlN4ztME9EqB.jpeg)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/wm_001.png)
 
 ## 文字水印
 
@@ -86,7 +86,7 @@ watermark/2
 
 POST /api/v1?watermark/2/text/5rWLQ1RBYWFhVHh0/dy/50/dx/50/fill/UmVk/dissolve/50/fontsize/900/gravity/center
 
-![图片](https://uploader.shimo.im/f/JAcbCAHSjrMrDeSX.jpeg)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/wm_002.jpeg)
 
 ## 文字平铺水印
 
@@ -130,7 +130,7 @@ watermark/4
 
 POST /api/v1?watermark/4/text/5rWLQ1RBYWFhVHh0/uw/160/resize/1/uh/50/fill/UmVk/rotate/180/fontsize/500/font/5b6u6L2v6ZuF6buR/dissolve/100
 
-![图片](https://uploader.shimo.im/f/rOKyjadJTewM2HgV.jpeg)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/wm_003.jpeg)
 
 ## 混合水印
 
@@ -161,4 +161,4 @@ POST /api/v1?imageMogr2/auto-orient/format/png|watermark/3/image/aHR0cDovLzd4bHY
 
 注意：　 image_url = http://7xlv47.com0.z0.glb.clouddn.com/baidi.png
 
-![图片](https://uploader.shimo.im/f/BWXtUVberKwbpck4.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/wm_004.png)

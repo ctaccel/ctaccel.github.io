@@ -23,4 +23,4 @@ redirect_from:
 
 测试原图如下，大小为 1024x768 的 JPEG 文件：
 
-![图片](https://uploader.shimo.im/f/jWwYmCk3alEabPVV.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/image.png)

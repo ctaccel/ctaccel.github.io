@@ -43,13 +43,13 @@ const data = [
   { genre: 'Strategy', sold: 1150 },
   { genre: 'Action', sold: 120 },
   { genre: 'Shooter', sold: 350 },
-  { genre: 'Other', sold: 150 },
+  { genre: 'Other', sold: 150 }
 ];
 
 const chart = new G2.Chart({
   container: 'c1',
   width: 500,
-  height: 500,
+  height: 500
 });
 
 chart.source(data);
@@ -83,7 +83,7 @@ $ npm run demos
 
 Please let us know how can we help. Do check out [issues](https://github.com/antvis/g2/issues) for bug reports or suggestions first.
 
-To become a contributor, please follow our [contributing guide](https://github.com/antvis/g2/blob/master/CONTRIBUTING.md).
+To become a contributor, please follow our [contributing guide](https://github.com/antvis/g2/raw/master/CONTRIBUTING.md).
 
 ## ~~Experience Improvement Program Description~~
 

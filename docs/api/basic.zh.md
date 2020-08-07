@@ -47,76 +47,76 @@ imageView2/<mode>/w/<LongEdge>
 
 POST /api/v1?imageView2/0/w/400/h/400
 
-![图片](https://github.com/ctaccel/ctaccel.github.io/blob/master/images/api/basic_mode_0.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/basic_mode_0.png)
 
 ### mode=1, w/400/h/400 变换成 400x400
 
 POST /api/v1?imageView2/1/w/400/h/400
 
-![图片](https://github.com/ctaccel/ctaccel.github.io/blob/master/images/api/basic_mode_1.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/basic_mode_1.png)
 
 ### mode=2, w/400/h/400 变换成 400x300
 
 POST /api/v1?imageView2/2/w/400/h/400
 
-![图片](https://github.com/ctaccel/ctaccel.github.io/blob/master/images/api/basic_mode_2.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/basic_mode_2.png)
 
 ### mode=3, w/400/h/400 变换成 533x400
 
 POST /api/v1?imageView2/3/w/400/h/400
 
-![图片](https://github.com/ctaccel/ctaccel.github.io/blob/master/images/api/basic_mode_3.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/basic_mode_3.png)
 
 ### mode=4, w/400/h/400 变换成 533x400
 
 POST /api/v1?imageView2/4/w/400/h/400
 
-![图片](https://github.com/ctaccel/ctaccel.github.io/blob/master/images/api/basic_mode_4.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/basic_mode_4.png)
 
 ### mode=5, w/400/h/400 变换成 400x400
 
 POST /api/v1?imageView2/5/w/400/h/400
 
-![图片](https://github.com/ctaccel/ctaccel.github.io/blob/master/images/api/basic_mode_5.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/basic_mode_5.png)
 
 ### mode=0, w/400, 表示限定长边为 400， 短边自适应。变换成 400x300 的图。
 
 POST /api/v1?imageView2/0/w/400
 
-![图片](https://github.com/ctaccel/ctaccel.github.io/blob/master/images/api/basic_mode_0_w.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/basic_mode_0_w.png)
 
 ### mode=1, w/400，只指定 w 或 h， 按比例缩放， 然后按中心裁剪为长宽相等的正方图， 变换成 400x400 的图。
 
 POST /api/v1?imageView2/1/w/400
 
-![图片](https://github.com/ctaccel/ctaccel.github.io/blob/master/images/api/basic_mode_1_w.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/basic_mode_1_w.png)
 
 ### mode=2, w/400， 宽最多为 400， 高度自适应， 变换成 400x300 的图。
 
 POST /api/v1?imageView2/2/w/400
 
-![图片](https://github.com/ctaccel/ctaccel.github.io/blob/master/images/api/basic_mode_2_w.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/basic_mode_2_w.png)
 
 ### mode=3, w/400， 宽至少为 400， 高也至少为 400， 变换成 533x400 的图。
 
 POST /api/v1?imageView2/3/w/400
 
-![图片](https://github.com/ctaccel/ctaccel.github.io/blob/master/images/api/basic_mode_3_w.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/basic_mode_3_w.png)
 
 ### mode=4, w/400， 长边至少为 400， 短边至少为 400， 进行等比缩放。变换成 533x400 的图。
 
 POST /api/v1?imageView2/4/w/400
 
-![图片](https://github.com/ctaccel/ctaccel.github.io/blob/master/images/api/basic_mode_4_w.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/basic_mode_4_w.png)
 
 ### mode=5, w/400， 长边至少为 400， 短边至少为 400， 进行等比缩放。居中裁剪为 400x400 的图。
 
 POST /api/v1?imageView2/5/w/400
 
-![图片](https://github.com/ctaccel/ctaccel.github.io/blob/master/images/api/basic_mode_5_w.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/basic_mode_5_w.png)
 
 ### mode=1, w/400/h/400/format/png/q/70/fpga/false, 居中裁剪为 400x400 的图。输出格式为 png。
 
 POST /api/v1?imageView2/1/w/400/h/400/format/png/q/70/fpga/false
 
-![图片](https://github.com/ctaccel/ctaccel.github.io/blob/master/images/api/basic_mode_1_wh.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/basic_mode_1_wh.png)

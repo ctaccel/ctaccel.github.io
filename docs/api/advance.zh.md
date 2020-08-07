@@ -35,20 +35,20 @@ imageMogr2/auto-orient
 
 ## 参数说明
 
-| Item         | Value                                                                                                                                                                              | Description                                                                                                | Optional |
-| :----------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------- | :------- |
-| /auto-orient | 无                                                                                                                                                                                 | 建议放在首位，根据原图 EXIF 信息自动旋正，便于后续处理。                                                   | O        |
-| /thumbnail/  | -                                                                                                                                                                                  | 参考 [thumbnail 说明](https://github.com/ctaccel/cip-docs/blob/master/image_advanced_process.md#Thumbnail) | O        |
-| /gravity/    | -                                                                                                                                                                                  | 参考 [gravity 说明](https://github.com/ctaccel/cip-docs/blob/master/image_advanced_process.md#Gravity)     | O        |
-| /crop/       | -                                                                                                                                                                                  | 参考 [crop 说明](https://github.com/ctaccel/cip-docs/blob/master/image_advanced_process.md#Crop)           | O        |
-| /rotate/     | 取值范围为 1-360，默认为不旋转                                                                                                                                                     | 图片旋转角度                                                                                               | O        |
-| /format/     | 支持 jpg、gif、png、webp 等，默认为原图格式                                                                                                                                        | 新图的输出格式                                                                                             | O        |
-| /blur/x      | radius 是模糊半径，取值范围为 1-50。sigma 是正态分布的标准差，必须大于 0。                                                                                                         | 高斯模糊参数                                                                                               | O        |
-| /background/ | -                                                                                                                                                                                  | 背景填充颜色,参考 color 说明                                                                               | O        |
-| /quality/    | 取值范围 1-100， 默认值 75                                                                                                                                                         | 新图的输出质量                                                                                             | O        |
-| /sharpen/    | 锐化参数值，取值范围为 10-300 间的整数。参数值越大，锐化效果越明显。                                                                                                               | 图片是否锐化                                                                                               | O        |
-| /roundpic/x  | 水平和垂直的值相同， 则可以写成类似/roundpic/200 这样， 否则/roundpic/200x300。 支持/roundpic/!50p 和/roundpic/50p 这种形式， 意思是原图的宽和高的 50%作为 radiusX 和 radiusY 值。 | 圆角大小的参数                                                                                             | O        |
-| /iradius/    | radius 是内切圆的半径，取值范围为大于 0、小于原图最小边一半的整数。内切圆的圆心为图片的中心。图片格式为 gif 时，不支持该参数。                                                     | 内切圆裁剪功能                                                                                             | O        |
+| Item         | Value                                                                                                                                                                              | Description                                                                                               | Optional |
+| :----------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------- | :------- |
+| /auto-orient | 无                                                                                                                                                                                 | 建议放在首位，根据原图 EXIF 信息自动旋正，便于后续处理。                                                  | O        |
+| /thumbnail/  | -                                                                                                                                                                                  | 参考 [thumbnail 说明](https://github.com/ctaccel/cip-docs/raw/master/image_advanced_process.md#Thumbnail) | O        |
+| /gravity/    | -                                                                                                                                                                                  | 参考 [gravity 说明](https://github.com/ctaccel/cip-docs/raw/master/image_advanced_process.md#Gravity)     | O        |
+| /crop/       | -                                                                                                                                                                                  | 参考 [crop 说明](https://github.com/ctaccel/cip-docs/raw/master/image_advanced_process.md#Crop)           | O        |
+| /rotate/     | 取值范围为 1-360，默认为不旋转                                                                                                                                                     | 图片旋转角度                                                                                              | O        |
+| /format/     | 支持 jpg、gif、png、webp 等，默认为原图格式                                                                                                                                        | 新图的输出格式                                                                                            | O        |
+| /blur/x      | radius 是模糊半径，取值范围为 1-50。sigma 是正态分布的标准差，必须大于 0。                                                                                                         | 高斯模糊参数                                                                                              | O        |
+| /background/ | -                                                                                                                                                                                  | 背景填充颜色,参考 color 说明                                                                              | O        |
+| /quality/    | 取值范围 1-100， 默认值 75                                                                                                                                                         | 新图的输出质量                                                                                            | O        |
+| /sharpen/    | 锐化参数值，取值范围为 10-300 间的整数。参数值越大，锐化效果越明显。                                                                                                               | 图片是否锐化                                                                                              | O        |
+| /roundpic/x  | 水平和垂直的值相同， 则可以写成类似/roundpic/200 这样， 否则/roundpic/200x300。 支持/roundpic/!50p 和/roundpic/50p 这种形式， 意思是原图的宽和高的 50%作为 radiusX 和 radiusY 值。 | 圆角大小的参数                                                                                            | O        |
+| /iradius/    | radius 是内切圆的半径，取值范围为大于 0、小于原图最小边一半的整数。内切圆的圆心为图片的中心。图片格式为 gif 时，不支持该参数。                                                     | 内切圆裁剪功能                                                                                            | O        |
 
 **thumbnail 说明**
 
@@ -101,7 +101,7 @@ imageMogr2/auto-orient
 
 POST /api/v1?imageMogr2/thumbnail/!75p
 
-![图片](https://uploader.shimo.im/f/4UYOOns6BDwAoIp1.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/advance_scale_0.png)
 
 - 按原宽度 75%等比缩小， 高度不变。
 
@@ -115,49 +115,49 @@ POST /api/v1?imageMogr2/thumbnail/!x75p
 
 POST /api/v1?imageMogr2/thumbnail/1536x
 
-![图片](https://uploader.shimo.im/f/EHlCvgRyw5UyqQnb.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/advance_scale_w.png)
 
 - 指定新高度 1152px， 等比缩放。
 
 POST /api/v1?imageMogr2/thumbnail/x1152
 
-![图片](https://uploader.shimo.im/f/RO7L3FzpPMoqhc2S.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/advance_scale_h.png)
 
 - 限定长边， 生成不超过 400x400 的缩略图
 
 POST /api/v1?imageMogr2/thumbnail/400x400
 
-![图片](https://uploader.shimo.im/f/5OHnA8ySQgwPLEH6.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/advance_scale_l.png)
 
 - 限定短边， 生成不小于 400x400 的缩略图
 
 POST /api/v1?imageMogr2/thumbnail/!400x400r
 
-![图片](https://uploader.shimo.im/f/eW112Zg4NUogaw5e.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/advance_scale_s.png)
 
 - 强制生成 400x600 的图
 
 POST /api/v1?imageMogr2/thumbnail/400x600 !
 
-![图片](https://uploader.shimo.im/f/Qz0KHPezIdE0Jv6L.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/advance_scale_wh.png)
 
 - 原图大于指定长宽矩形， 按宽缩放比和高缩放比的较大值进行缩放成 400x300。
 
 POST /api/v1?imageMogr2/thumbnail/400x600>
 
-![图片](https://uploader.shimo.im/f/RqzUddVtiRUjgXkn.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/advance_scale_001.png)
 
 - 原图小于指定长宽矩形， 按宽缩放比和高缩放比的较小值缩放成 1467x1100。
 
 POST /api/v1?imageMogr2/thumbnail/1500x1100<
 
-![图片](https://uploader.shimo.im/f/7PFtbgMQo9QvWnKT.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/advance_scale_002.png)
 
 - 按原图高宽比例等比缩放， 缩放后的像素数量不超过 900000。
 
 POST /api/v1?imageMogr2/thumbnail/900000@
 
-![图片](https://uploader.shimo.im/f/PLzHKtFDoVg7iRJg.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/advance_scale_limit.png)
 
 ### 裁剪
 
@@ -165,97 +165,97 @@ POST /api/v1?imageMogr2/thumbnail/900000@
 
 POST /api/v1?imageMogr2/crop/400x
 
-![图片](https://uploader.shimo.im/f/mEQzdHyJkqU35x2u.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/advance_crop_001.png)
 
 - 生成 1024x400 的裁剪图
 
 POST /api/v1?imageMogr2/crop/x400
 
-![图片](https://uploader.shimo.im/f/FO1LzLxkQekjWA07.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/advance_crop_002.png)
 
 - 生成 400x400 的裁剪图
 
 POST /api/v1?imageMogr2/crop/400x400
 
-![图片](https://uploader.shimo.im/f/r4JmYWTFgqs7M2Ry.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/advance_crop_003.png)
 
 - 生成 300x300 裁剪图， 偏移距离 30x100
 
 POST /api/v1?imageMogr2/crop/!400x400a30a100
 
-![图片](https://uploader.shimo.im/f/vhHEYTq0XiE7DWla.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/advance_crop_004.png)
 
 - 生成 400x300 裁剪图， 偏移距离 30x0
 
 POST /api/v1?imageMogr2/crop/!400x400a30-100
 
-![图片](https://uploader.shimo.im/f/Es36Hw9X328kcMSJ.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/advance_crop_005.png)
 
 - 生成 370\*400 裁剪图，偏移距离 0x100
 
 POST /api/v1?imageMogr2/crop/!400x400-30a100
 
-![图片](https://uploader.shimo.im/f/uLuWoJ8ERmI6R1Ha.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/advance_crop_006.png)
 
 - 生成 370x300 裁剪图， 偏移距离 0x0
 
 POST /api/v1?imageMogr2/crop/!400x400-30-100
 
-![图片](https://uploader.shimo.im/f/yKFMTpeDwY83OgBc.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/advance_crop_007.png)
 
 - 锚点在左上角（northwest）， 生成 300x300 裁剪图
 
 POST /api/v1?imageMogr2/gravity/northwest/crop/400x400
 
-![图片](https://uploader.shimo.im/f/SfLeMdITx4YdrzVv.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/advance_crop_008.png)
 
 - 锚点在正上方（north）， 生成 400x400 裁剪图
 
 POST /api/v1?imageMogr2/gravity/north/crop/400x400
 
-![图片](https://uploader.shimo.im/f/MkmMxNqasJwtNPsd.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/advance_crop_009.png)
 
 - 锚点在右上方（northeast）， 生成 400x400 裁剪图
 
 POST /api/v1?imageMogr2/gravity/northeast/crop/400x400
 
-![图片](https://uploader.shimo.im/f/qUedWlN6YZsPRmYc.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/advance_crop_010.png)
 
 - 锚点在正左方（west），　生成 400x400 裁剪图
 
 POST /api/v1?imageMogr2/gravity/west/crop/400x400
 
-![图片](https://uploader.shimo.im/f/czJldRvn9dk6htc1.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/advance_crop_011.png)
 
 - 锚点在正中（center），　生成 400x400 裁剪图
 
 POST /api/v1?imageMogr2/gravity/center/crop/400x400
 
-![图片](https://uploader.shimo.im/f/SbX70My0h5Mx1fgW.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/advance_crop_012.png)
 
 - 锚点在正右方 （east）， 生成 400x400 裁剪图
 
 POST /api/v1?imageMogr2/gravity/east/crop/400x400
 
-![图片](https://uploader.shimo.im/f/GgjWH29V1gEKzNdT.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/advance_crop_013.png)
 
 - 锚点在左下方 （southwest）， 生成 400x400 裁剪图
 
 POST /api/v1?imageMogr2/gravity/southwest/crop/400x400
 
-![图片](https://uploader.shimo.im/f/iMoEw6UzF0sQdqgE.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/advance_crop_014.png)
 
 - 锚点在正下方 （south）， 生成 400x400 裁剪图
 
 POST /api/v1?imageMogr2/gravity/south/crop/400x400
 
-![图片](https://uploader.shimo.im/f/lCq2q6vcQT0ql9ZY.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/advance_crop_015.png)
 
 - 锚点在右下方 （southeast）， 生成 400x400 裁剪图
 
 POST /api/v1?imageMogr2/gravity/southeast/crop/400x400
 
-![图片](https://uploader.shimo.im/f/LSXgrDlDsyw4AafQ.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/advance_crop_016.png)
 
 ### 旋转
 
@@ -263,13 +263,13 @@ POST /api/v1?imageMogr2/gravity/southeast/crop/400x400
 
 POST /api/v1?imageMogr2/rotate/45
 
-![图片](https://uploader.shimo.im/f/XIZiBesUipgSTmte.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/advance_rotate_001.png)
 
 - 旋转并添加背景色，裁剪以及高斯模糊，输出质量为 80%
 
 POST /api/v1?imageMogr2/auto-orient/thumbnail/!256x256r/background/b3Jhbmdl/gravity/center/crop/256x256/blur/3x9/quality/80/rotate/45
 
-![图片](https://uploader.shimo.im/f/hFJCEcuBQZU8ltfx.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/advance_rotate_002.png)
 
 ### 高斯模糊
 
@@ -277,7 +277,7 @@ POST /api/v1?imageMogr2/auto-orient/thumbnail/!256x256r/background/b3Jhbmdl/grav
 
 POST /api/v1?imageMogr2/blur/5x9
 
-![图片](https://uploader.shimo.im/f/jZ7Q7nYQNysDJyaN.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/advance_blur_001.png)
 
 ### 椭圆圆角
 
@@ -285,19 +285,19 @@ POST /api/v1?imageMogr2/blur/5x9
 
 POST /api/v1?imageMogr2/roundpic/300
 
-![图片](https://uploader.shimo.im/f/oDpsmagiTDAxrrZL.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/advance_round_001.png)
 
 - 水平方向为 300px，　垂直方向为 400px
 
 POST /api/v1?imageMogr2/roundpic/300x400
 
-![图片](https://uploader.shimo.im/f/aN9LJ6AZ4VYhG91n.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/advance_round_002.png)
 
 - 水平方向和垂直方向都为原图片的 30%大小
 
 POST /api/v1?imageMogr2/roundpic/!30p
 
-![图片](https://uploader.shimo.im/f/lZnbt74Bb9IdAbE1.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/advance_round_003.png)
 
 ### 中心原图
 
@@ -305,10 +305,10 @@ POST /api/v1?imageMogr2/roundpic/!30p
 
 POST /api/v1?imageMogr2/iradius/300
 
-![图片](https://uploader.shimo.im/f/M3p8frOG9SIL5zvR.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/advance_circle_001.png)
 
 - 中心原图直径为原宽高最小值的 60%
 
 POST /api/v1?imageMogr2/iradius/!60p
 
-![图片](https://uploader.shimo.im/f/NPqYfmB8sN8jhOoq.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/raw/master/images/api/advance_circle_002.png)

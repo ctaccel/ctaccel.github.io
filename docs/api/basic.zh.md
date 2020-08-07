@@ -47,76 +47,76 @@ imageView2/<mode>/w/<LongEdge>
 
 POST /api/v1?imageView2/0/w/400/h/400
 
-![图片](https://uploader.shimo.im/f/pYvEkIvRy2sgOZOm.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/blob/master/images/api/basic_mode_0.png)
 
 ### mode=1, w/400/h/400 变换成 400x400
 
 POST /api/v1?imageView2/1/w/400/h/400
 
-![图片](https://uploader.shimo.im/f/r5XxIU3vp6UV0B3g.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/blob/master/images/api/basic_mode_1.png)
 
 ### mode=2, w/400/h/400 变换成 400x300
 
 POST /api/v1?imageView2/2/w/400/h/400
 
-![图片](https://uploader.shimo.im/f/oUxbUZxIOF80fhsb.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/blob/master/images/api/basic_mode_2.png)
 
 ### mode=3, w/400/h/400 变换成 533x400
 
 POST /api/v1?imageView2/3/w/400/h/400
 
-![图片](https://uploader.shimo.im/f/laVkEK89L6ERENK5.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/blob/master/images/api/basic_mode_3.png)
 
 ### mode=4, w/400/h/400 变换成 533x400
 
 POST /api/v1?imageView2/4/w/400/h/400
 
-![图片](https://uploader.shimo.im/f/AiEmJhtppioRqJLc.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/blob/master/images/api/basic_mode_4.png)
 
 ### mode=5, w/400/h/400 变换成 400x400
 
 POST /api/v1?imageView2/5/w/400/h/400
 
-![图片](https://uploader.shimo.im/f/T6ZhvfhYFrgHhuXu.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/blob/master/images/api/basic_mode_5.png)
 
 ### mode=0, w/400, 表示限定长边为 400， 短边自适应。变换成 400x300 的图。
 
 POST /api/v1?imageView2/0/w/400
 
-![图片](https://uploader.shimo.im/f/vW5KA7DtEkslARIy.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/blob/master/images/api/basic_mode_0_w.png)
 
 ### mode=1, w/400，只指定 w 或 h， 按比例缩放， 然后按中心裁剪为长宽相等的正方图， 变换成 400x400 的图。
 
 POST /api/v1?imageView2/1/w/400
 
-![图片](https://uploader.shimo.im/f/vnnJAGbj9tcUNjla.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/blob/master/images/api/basic_mode_1_w.png)
 
 ### mode=2, w/400， 宽最多为 400， 高度自适应， 变换成 400x300 的图。
 
 POST /api/v1?imageView2/2/w/400
 
-![图片](https://uploader.shimo.im/f/wqaocTsCas0u4bYz.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/blob/master/images/api/basic_mode_2_w.png)
 
 ### mode=3, w/400， 宽至少为 400， 高也至少为 400， 变换成 533x400 的图。
 
 POST /api/v1?imageView2/3/w/400
 
-![图片](https://uploader.shimo.im/f/BjoGpYKDbBAhQqRv.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/blob/master/images/api/basic_mode_3_w.png)
 
 ### mode=4, w/400， 长边至少为 400， 短边至少为 400， 进行等比缩放。变换成 533x400 的图。
 
 POST /api/v1?imageView2/4/w/400
 
-![图片](https://uploader.shimo.im/f/mGpvKJK3qdI0Yff7.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/blob/master/images/api/basic_mode_4_w.png)
 
 ### mode=5, w/400， 长边至少为 400， 短边至少为 400， 进行等比缩放。居中裁剪为 400x400 的图。
 
 POST /api/v1?imageView2/5/w/400
 
-![图片](https://uploader.shimo.im/f/7dhSbrDijY42AB8R.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/blob/master/images/api/basic_mode_5_w.png)
 
 ### mode=1, w/400/h/400/format/png/q/70/fpga/false, 居中裁剪为 400x400 的图。输出格式为 png。
 
 POST /api/v1?imageView2/1/w/400/h/400/format/png/q/70/fpga/false
 
-![图片](https://uploader.shimo.im/f/k3kl14xLDHgN5BwL.png)
+![图片](https://github.com/ctaccel/ctaccel.github.io/blob/master/images/api/basic_mode_1_wh.png)
